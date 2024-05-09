@@ -138,6 +138,6 @@ JAZZMIN_SETTINGS = {
     "site_title": "Paylio",
     "site_header": "Paylio",
     "site_brand": "Payment Made Easy...",
-    "copyright": "Paylio - All Right Reserved ",
+    "copyright": "Paylio - All Right Reserved © Copyright 2024 - Roots Technology Inc.",
     "order_with_respect_to": ["core", "userauths", "transactions", "addon", "blog"],
 }
