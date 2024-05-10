@@ -137,7 +137,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 JAZZMIN_SETTINGS = {
     "site_title": "Paylio",
     "site_header": "Paylio",
-    "site_brand": "Payment Made Easy...",
-    "copyright": "Paylio - All Right Reserved © Copyright 2024 - Roots Technology Inc.",
+    "site_brand": "Paylio",
+    "copyright": "Paylio by Roots Technology Inc",
+    "version_app": "1.0",
     "order_with_respect_to": ["core", "userauths", "transactions", "addon", "blog"],
 }
+
+AUTH_USER_MODEL = 'userauths.User'
