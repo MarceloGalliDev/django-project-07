@@ -31,4 +31,4 @@ def RegisterView(request):
         # passamos o formulario aqui no context, isso faz com que gere o formulario de usuario renderizado na pagina
         "form": form,
     }
-    return render(request, 'userauths/sign_up.html', context)
+    return render(request, 'userauths/sign-up.html', context)
