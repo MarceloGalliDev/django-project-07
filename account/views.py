@@ -61,7 +61,7 @@ def dashboard(request):
     if request.user.is_authenticated:
         try:
             kyc = KYC.objects.get(user=request.user)
-        except:
+        except:  # noqa: E722
             messages.warning(request, "You need to submit your kyc")
             return redirect("account:kyc-reg")
         
