@@ -70,7 +70,7 @@ class Transaction(models.Model):
         try:
             return f"{self.user}"
         except:
-            return f"Transaction"
+            return "Transaction"
 
 
 class CreditCard(models.Model):
