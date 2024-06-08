@@ -69,7 +69,7 @@ class Transaction(models.Model):
     def __str__(self):
         try:
             return f"{self.user}"
-        except:
+        except:  # noqa: E722
             return "Transaction"
 
 
